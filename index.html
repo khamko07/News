@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laos News</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="#" class="logo">Laos News</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" data-category="technology">Technology</a></li>
+                    <li><a href="#" data-category="business">Business</a></li>
+                    <li><a href="#" data-category="sports">Sports</a></li>
+                    <li><a href="#" data-category="entertainment">Entertainment</a></li>
+                </ul>
+            </nav>
+            <div class="weather-widget">
+                <i class="fas fa-cloud"></i>
+                <span id="weather-temp">Loading...</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search news...">
+        </div>
+    </div>
+
+    <main class="news-grid" id="news-grid">
+        <!-- News articles will be dynamically inserted here -->
+    </main>
+
+    <div class="loading">
+        <i class="fas fa-spinner fa-spin fa-3x"></i>
+    </div>
+
+    <button class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    <script src="app.js"></script>
+    <div class="footer">
+
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>Global News Hub is your go-to source for the latest news from around the world. Stay informed with our up-to-date articles on technology, business, sports, and entertainment.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Entertainment</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>Email: khamko@pascaliaasia.com</p>
+                <p>Phone: +8562096637...</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/khamkoxys"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/khamko177/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Laos Newsb | Designed by Khamko
+        </div>
+    </footer>
+
+</body>
+</html>
